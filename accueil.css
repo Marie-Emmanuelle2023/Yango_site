@@ -18,7 +18,12 @@ nav ul li a {
 }
 
 .tete h1 {
-   
+    color: #fff;
+    font-size: 70px;
+    font-weight: bold;
+    width: 700px;
+    letter-spacing:-3px;
+    transform: translate(50px, -34px);
 }
 
 
@@ -92,6 +97,11 @@ nav ul li a {
 
 /* Animation conducteur */
 
-
+@media screen and (max-width:540px){
+   .tete h1{
+    font-size: 60px;
+    width: 450px;
+   }
+}
 
 
